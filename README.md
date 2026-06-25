@@ -2,7 +2,6 @@
 
 A personal portfolio website to showcase my work, skills, and creative projects. Built as a clean, responsive static site.
 
-![Screenshot of the portfolio]
 <img width="1000" height="2303" alt="nikitharajesh" src="https://github.com/user-attachments/assets/a0007266-4f82-421a-b795-a1fae78036da" />
 
 ## 🌐 Live Demo

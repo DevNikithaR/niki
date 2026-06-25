@@ -7,7 +7,6 @@ A personal portfolio website to showcase my work, skills, and creative projects.
 ## 🌐 Live Demo
 
 **View the live site here -> [https://nikitharajesh.netlify.app/]**  
-*Replace with your actual deployment URL (e.g., GitHub Pages, Netlify, Vercel).*
 
 ## 🎯 Purpose
 

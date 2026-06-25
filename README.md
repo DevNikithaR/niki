@@ -22,11 +22,11 @@ This site serves as my digital presence — a place to highlight my projects, sh
 
 ## 📁 Project Structure
 niki/
-├── css/ # Stylesheets
-├── fonts/ # Custom fonts
-├── img/ # Images and assets
-├── index.html # Main landing page
-└── script.js # Interactive functionality
+/css/ # Stylesheets
+/fonts/ # Custom fonts
+/img/ # Images and assets
+/index.html # Main landing page
+/script.js # Interactive functionality
 
 ## 🛠️ Technologies
 HTML5 — Structure

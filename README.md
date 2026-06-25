@@ -20,15 +20,8 @@ This site serves as my digital presence — a place to highlight my projects, sh
 - About / Bio section
 - Contact / social links
 
-## 📁 Project Structure
-niki/
-/css/ # Stylesheets
-/fonts/ # Custom fonts
-/img/ # Images and assets
-/index.html # Main landing page
-/script.js # Interactive functionality
-
 ## 🛠️ Technologies
+
 HTML5 — Structure
 
 CSS3 — Styling and layout
@@ -36,6 +29,7 @@ CSS3 — Styling and layout
 JavaScript — Interactivity and dynamic content
 
 ## 🔧 Customization
+
 The personalisation of this portfolio for your own use is not allowed without due credits.
 
 -- Replace images in the /img folder
@@ -47,8 +41,10 @@ The personalisation of this portfolio for your own use is not allowed without du
 -- Adjust interactive behaviour in script.js
 
 ## 📝 License
+
 This project is open source and available under the MIT License.
 
-👤 Author
+## 👤 Author
+
 Nikitha Rajesh
 GitHub: @DevNikithaR

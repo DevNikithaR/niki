@@ -519,6 +519,26 @@ document.addEventListener("DOMContentLoaded", () => {
             `;
         });
     }
+
+    // case studies
+
+    const track = document.getElementById("track");
+    const doubled = [...cases, ...cases];
+    doubled.forEach((c) => {
+        const card = document.createElement("div");
+        card.className = "cs-card";
+        card.innerHTML = `
+    <span class="cs-tag">${c.tag}</span>
+    <div>
+      <div class="cs-title">${c.title}</div>
+      <div class="cs-company">${c.company}</div>
+    </div>
+    <hr class="cs-divider">
+    <div class="cs-tools">${c.tools.map((t) => `<span class="cs-tool">${t}</span>`).join("")}</div>
+    <div class="cs-metric">${c.metric}</div>
+  `;
+        track.appendChild(card);
+    });
 }); //end DOMContentLoaded
 
 circleGraph({

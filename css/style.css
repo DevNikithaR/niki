@@ -1119,6 +1119,7 @@ body.enable-blur .project-overlay {
     gap: 1rem;
     cursor: default;
     transition: border-color 0.2s;
+    color: inherit;
 }
 .cs-card:hover {
     border-color: var(--border-strong);
@@ -1131,20 +1132,20 @@ body.enable-blur .project-overlay {
     padding: 3px 10px;
     border-radius: 99px;
     border: 0.5px solid var(--border-strong);
-    color: var(--text-secondary);
-    background: var(--surface-1);
+    color: inherit;
+    background: inherit;
     width: fit-content;
     font-family: "Noe Display Medium";
 }
 .cs-title {
     font-size: 1.2rem;
-    color: var(--text-primary);
+    color: inherit;
     line-height: 1.4;
     font-family: "Noe Display Medium";
 }
 .cs-company {
     font-size: 0.78rem;
-    color: var(--text-muted);
+    color: inherit;
     font-style: italic;
     font-weight: 500;
     font-family: "Noe Display Medium";
@@ -1165,20 +1166,16 @@ body.enable-blur .project-overlay {
     letter-spacing: 0.05em;
     padding: 3px 8px;
     border-radius: 4px;
-    background: var(--surface-0);
-    color: var(--text-secondary);
+    background: inherit;
+    color: inherit;
     border: 0.5px solid var(--border);
 }
 .cs-metric {
     font-size: 0.78rem;
-    color: var(--text-secondary);
+    color: inherit;
     margin-top: auto;
     padding-top: 0.5rem;
     border-top: 0.5px solid var(--border);
-}
-.cs-metric strong {
-    color: var(--text-primary);
-    font-weight: bold;
 }
 
 /*--------- SECTION: SKILLS ---------*/

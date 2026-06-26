@@ -1111,7 +1111,6 @@ body.enable-blur .project-overlay {
 .cs-section .cs-card {
     flex-shrink: 0;
     width: 280px;
-    background: var(--surface-2);
     border: 0.5px solid var(--border);
     border-radius: 12px;
     padding: 1.5rem;

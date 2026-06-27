@@ -869,5 +869,38 @@ UPDATED: 26-06-2026
 				});
 			};
 		</script>
+		<!--- DOT SCROLLBAR --->
+		<!--<div id="dot-scrollbar"></div>
+
+		<script>
+			const sections = document.querySelectorAll("section");
+			const bar = document.getElementById("dot-scrollbar");
+
+			sections.forEach(() => {
+				const dot = document.createElement("div");
+				dot.classList.add("dot");
+				bar.appendChild(dot);
+			});
+
+			const dots = bar.querySelectorAll(".dot");
+
+			const observer = new IntersectionObserver(
+				(entries) => {
+					entries.forEach((entry) => {
+						if (entry.isIntersecting) {
+							const i = [...sections].indexOf(entry.target);
+							dots.forEach((d) => d.classList.remove("active"));
+							if (dots[i]) dots[i].classList.add("active");
+						}
+					});
+				},
+				{ threshold: 0.3 }
+			);
+
+			sections.forEach((s) => observer.observe(s));
+
+			// Set first dot active immediately on load
+			dots[0]?.classList.add("active");
+		</script>-->
 	</body>
 </html>

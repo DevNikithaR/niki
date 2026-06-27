@@ -97,6 +97,45 @@ h2 {
     opacity: 1;
 }
 
+/*--------- HIDE SCROLLBAR ---------*/
+html,
+body {
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Custom dot scrollbar */
+/*#dot-scrollbar {
+    position: fixed;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    z-index: 99;
+}
+
+#dot-scrollbar .dot {
+    width: 18px;
+    height: 3px;
+    border-radius: 99px;
+    background: rgba(255, 255, 255, 0.2);
+    transition:
+        background 0.3s ease,
+        transform 0.3s ease;
+}
+
+#dot-scrollbar .dot.active {
+    background: #2c2d31;
+    transform: scaleX(1.2);
+}*/
+
 /*--------- LOADING SCREEN ---------*/
 .loading_container {
     position: fixed;
